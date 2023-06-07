@@ -8,16 +8,18 @@ public class Ex9 {
     // Em seguida exiba os valores deste vetor.
 
     public static void main(String[] args) {
-        List<Integer> vetor = new ArrayList<>(50);
+        List<Integer> vetor = new ArrayList<>();
         int num = 0;
         int posicao = 0;
 
-        for(int i=0 ; i < 50 ; i++){
+        for(int i=0 ; i < 50; i++){
            num = 101 + i;
-            vetor.add(num);
+           vetor.add(num);
 
         }
-        
+        for (int x = 0 ; x <50 ; x ++){
+            System.out.println( x + "° :" +  vetor.get(x));
+
         }
 
 
